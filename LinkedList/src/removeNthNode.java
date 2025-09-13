@@ -56,6 +56,7 @@ public class removeNthNode {
         }
         return;
     }
+
     public void print(){
         Node temp = head;
         while(temp!=null){
@@ -76,6 +77,5 @@ public class removeNthNode {
         // System.out.println(ll.del(3));
         ll.del(2);
         ll.print();
-
     }
 }
